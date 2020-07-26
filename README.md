@@ -1,4 +1,4 @@
-# Standford Compilers cs143
+# Stanford Compilers cs143
 This Repo contains the Docker setup
 
 
