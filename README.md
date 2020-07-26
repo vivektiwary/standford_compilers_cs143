@@ -1,5 +1,5 @@
-# standford_compilers_cs143
-This Repo contains the Docker setup along with Assignments Solutions
+# Standford Compilers cs143
+This Repo contains the Docker setup
 
 
 ## Steps to run
