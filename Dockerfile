@@ -6,7 +6,15 @@ RUN apt-get update \
 RUN apt-get install -y flex bison build-essential csh openjdk-8-jdk vim \
     libxaw7-dev wget less
 
+RUN apt-get install -y curl git-all
+
 RUN rm -rf /var/lib/apt/lists/*
+
+ENV HOME /root
+RUN mkdir $HOME/.vim/
+
+COPY vim_config/.vimrc $HOME/
+
 
 # RUN mkdir /usr/class
 WORKDIR /usr/class
