@@ -1,0 +1,237 @@
+2a3,107
+> ERROR "*"
+> LONGERROR
+> ERROR "*"
+> TYPEID Comment
+> LONGERROR
+> ERROR "*"
+> LONGERROR
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> LONGERROR
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> '-'
+> '-'
+> OBJECTID single
+> OBJECTID line
+> OBJECTID comments
+> '-'
+> '-'
+> ERROR "$"
+> ERROR "#"
+> ERROR "%"
+> ERROR "^"
+> ERROR "^"
+> ERROR "$"
+> ERROR "%"
+> ERROR "&"
+> ERROR "%"
+> ERROR "^"
+> ERROR "&"
+> ERROR "%"
+> ERROR "&"
+> ERROR "%"
+> ERROR "#"
+> '*'
+> ERROR "&"
+> '*'
+> ERROR "$"
+> ERROR "^"
+> '*'
+> ERROR "%"
+> ERROR ">"
+> TYPEID G
+> ERROR "%"
+> ERROR ">"
+> TYPEID GH
+> ERROR ">"
+> ERROR "%"
+> TYPEID TH
+> ERROR "%"
+> ERROR ">"
+> ERROR "^"
+> '*'
+> ERROR "^"
+> ERROR "$"
+> ERROR "$"
+> '*'
+> ERROR "&"
+> ERROR "^"
+> ERROR "$"
+4a110,157
+> ERROR "*"
+> LONGERROR
+> ERROR "*"
+> TYPEID Comment
+> LONGERROR
+> ERROR "*"
+> LONGERROR
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> LONGERROR
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> LONGERROR
+6a160,186
+> '-'
+> '-'
+> OBJECTID hello
+> OBJECTID my
+> OBJECTID name
+> OBJECTID is
+> OBJECTID george
+> ';'
+> '@'
+> ERROR "#"
+> ERROR "$"
+> ERROR "#"
+> '@'
+> ERROR "!"
+> ERROR "^"
+> ERROR "%"
+> ERROR "&"
+> ERROR "$"
+> ERROR "&"
+> '@'
+> ERROR "$"
+> ERROR "#"
+> ERROR "$"
+> TYPEID ESFsej
+> OBJECTID ok34
+> ';'
+> OBJECTID u90
+8a189,205
+> '-'
+> '-'
+> '-'
+> OBJECTID heelo
+> OBJECTID my
+> OBJECTID nma
+> OBJECTID ei
+> OBJECTID sgeoegre
+> ';'
+> INT_CONST 234
+> INT_CONST 2
+> ERROR "#"
+> ERROR "$"
+> '@'
+> ERROR "#"
+> ERROR "$"
+> OBJECTID f
+11a209,234
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+12a236,237
+> '-'
+> '-'
+14a240,241
+> '-'
+> '-'
+15a243,244
+> '-'
+> '-'

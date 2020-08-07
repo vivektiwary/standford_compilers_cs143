@@ -1,0 +1,241 @@
+0a1,4
+> ERROR "*"
+> ERROR "@"
+> ERROR "*"
+> ERROR "*"
+4c8
+< OBJECTID var
+---
+> OBJECTID ar
+10c14
+< OBJECTID value
+---
+> OBJECTID alue
+16c20
+< OBJECTID var
+---
+> OBJECTID ar
+29c33
+< OBJECTID var
+---
+> OBJECTID ar
+46a51,53
+> '-'
+> '-'
+> OBJECTID same
+62a70,72
+> '-'
+> '-'
+> OBJECTID plus
+98a109,111
+> '-'
+> '-'
+> OBJECTID negate
+137a151,153
+> '-'
+> '-'
+> OBJECTID diff
+205a222,224
+> '-'
+> '-'
+> OBJECTID factorial
+265a285,291
+> '-'
+> '-'
+> TYPEID B
+> OBJECTID is
+> OBJECTID a
+> OBJECTID number
+> OBJECTID squared
+274a301,303
+> '-'
+> '-'
+> OBJECTID square
+317a347,349
+> '-'
+> '-'
+> OBJECTID negate
+352a385,387
+> '-'
+> '-'
+> OBJECTID cube
+397a433,437
+> '-'
+> '-'
+> OBJECTID divisible
+> OBJECTID by
+> INT_CONST 3
+466a507,509
+> '-'
+> '-'
+> OBJECTID division
+495a539,544
+> ERROR "~"
+> ERROR "/"
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+497c546
+< TYPEID A2I
+---
+> OBJECTID A2I
+684a734,743
+> '-'
+> '-'
+> OBJECTID the
+> STR_CONST ""
+> OBJECTID is
+> OBJECTID needed
+> OBJECTID to
+> OBJECTID satisfy
+> OBJECTID the
+> OBJECTID typchecker
+1158c1217
+< TYPEID A2I
+---
+> OBJECTID A2I
+1161c1220
+< TYPEID A2I
+---
+> OBJECTID A2I
+1249c1308
+< OBJECTID var
+---
+> OBJECTID ar
+1321c1380
+< TYPEID A2I
+---
+> OBJECTID A2I
+1324c1383
+< TYPEID A2I
+---
+> OBJECTID A2I
+1367a1427,1442
+> '-'
+> '-'
+> OBJECTID avar
+> ASSIGN
+> '('
+> NEW
+> TYPEID A
+> ')'
+> '.'
+> OBJECTID set_var
+> '('
+> OBJECTID get_int
+> '('
+> ')'
+> ')'
+> ';'
+1398a1474,1485
+> '-'
+> '-'
+> OBJECTID print
+> '('
+> OBJECTID avar
+> ')'
+> ';'
+> '-'
+> '-'
+> OBJECTID prints
+> OBJECTID out
+> OBJECTID answer
+1414a1502,1504
+> '-'
+> '-'
+> OBJECTID add
+1458a1549,1551
+> '-'
+> '-'
+> OBJECTID negate
+1520a1614,1616
+> '-'
+> '-'
+> OBJECTID diff
+1582a1679,1681
+> '-'
+> '-'
+> OBJECTID factorial
+1605a1705,1707
+> '-'
+> '-'
+> OBJECTID square
+1628a1731,1733
+> '-'
+> '-'
+> OBJECTID cube
+1633a1739,1744
+> '-'
+> '-'
+> OBJECTID multiple
+> OF
+> INT_CONST 3
+> ERROR "?"
+1650a1762,1778
+> '-'
+> '-'
+> OBJECTID avar
+> ASSIGN
+> '('
+> NEW
+> TYPEID A
+> ')'
+> '.'
+> OBJECTID method1
+> '('
+> OBJECTID avar
+> '.'
+> OBJECTID value
+> '('
+> ')'
+> ')'
+1668a1797,1809
+> '-'
+> '-'
+> OBJECTID avar
+> ASSIGN
+> '('
+> NEW
+> TYPEID A
+> ')'
+> '.'
+> OBJECTID set_var
+> '('
+> INT_CONST 0
+> ')'
+1770c1911
+< TYPEID A2I
+---
+> OBJECTID A2I
+1773c1914
+< TYPEID A2I
+---
+> OBJECTID A2I
+1793a1935,1940
+> '-'
+> '-'
+> OBJECTID end
+> LET
+> OBJECTID a
+> ':'
+1796a1944,1949
+> '-'
+> '-'
+> OBJECTID end
+> LET
+> OBJECTID r
+> ':'
+1802a1956,1961
+> '-'
+> '-'
+> OBJECTID end
+> LET
+> OBJECTID x
+> ':'
+1839a1999,2003
+> '-'
+> '-'
+> OBJECTID divide
+> '/'
+> INT_CONST 8

@@ -1,0 +1,50 @@
+3a4,23
+> '-'
+> '-'
+> LONGERROR
+> STR_CONST ""
+> LONGERROR
+> LONGERROR
+> STR_CONST "-"
+> LONGERROR
+> STR_CONST "\\"
+> '-'
+> LONGERROR
+> '-'
+> STR_CONST "\\"
+> STR_CONST ""
+> LONGERROR
+> '-'
+> '-'
+> STR_CONST "\""
+> LONGERROR
+> LONGERROR
+13a34,39
+> '-'
+> '-'
+> STR_CONST ""
+> LONGERROR
+> STR_CONST "--"
+> LONGERROR
+28a55,75
+> LONGERROR
+> '-'
+> '-'
+> STR_CONST "\""
+> LONGERROR
+> '-'
+> '-'
+> LONGERROR
+> STR_CONST ""
+> LONGERROR
+> STR_CONST "\\"
+> LONGERROR
+> '-'
+> '-'
+> STR_CONST "\\"
+> STR_CONST ""
+> LONGERROR
+> '-'
+> '-'
+> STR_CONST "\""
+> LONGERROR

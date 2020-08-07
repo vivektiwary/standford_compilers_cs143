@@ -1,0 +1,6 @@
+#name "./wq0607-c2.cool"
+#1 ERROR "\""
+#1 ERROR "\""
+#1 STR_CONST "*)"
+#1 ERROR "\""
+#1 STR_CONST "*)(*"

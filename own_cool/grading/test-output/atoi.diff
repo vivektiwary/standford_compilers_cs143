@@ -1,0 +1,31 @@
+0a1,4
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+2c6
+< TYPEID A2I
+---
+> OBJECTID A2I
+90a95,104
+> '-'
+> '-'
+> OBJECTID the
+> INT_CONST 0
+> OBJECTID is
+> OBJECTID needed
+> OBJECTID to
+> OBJECTID satisfy
+> OBJECTID the
+> OBJECTID typchecker
+189a204,213
+> '-'
+> '-'
+> OBJECTID the
+> STR_CONST ""
+> OBJECTID is
+> OBJECTID needed
+> OBJECTID to
+> OBJECTID satisfy
+> OBJECTID the
+> OBJECTID typchecker

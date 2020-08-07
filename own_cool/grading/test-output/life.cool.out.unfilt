@@ -1,0 +1,1479 @@
+#name "./life.cool"
+#1 ERROR "/"
+#1 ERROR "/"
+#1 ERROR "/"
+#1 ERROR "/"
+#1 ERROR "/"
+#1 ':'
+#1 CLASS
+#1 TYPEID Board
+#1 INHERITS
+#1 TYPEID IO
+#1 '{'
+#1 OBJECTID rows
+#1 ':'
+#1 TYPEID Int
+#1 ';'
+#1 OBJECTID columns
+#1 ':'
+#1 TYPEID Int
+#1 ';'
+#1 OBJECTID board_size
+#1 ':'
+#1 TYPEID Int
+#1 ';'
+#1 OBJECTID size_of_board
+#1 '('
+#1 OBJECTID initial
+#1 ':'
+#1 TYPEID String
+#1 ')'
+#1 ':'
+#1 TYPEID Int
+#1 '{'
+#1 OBJECTID initial
+#1 '.'
+#1 OBJECTID length
+#1 '('
+#1 ')'
+#1 '}'
+#1 ';'
+#1 OBJECTID board_init
+#1 '('
+#1 OBJECTID start
+#1 ':'
+#1 TYPEID String
+#1 ')'
+#1 ':'
+#1 TYPEID SELF_TYPE
+#1 '{'
+#1 '('
+#1 LET
+#1 OBJECTID size
+#1 ':'
+#1 TYPEID Int
+#1 ASSIGN
+#1 OBJECTID size_of_board
+#1 '('
+#1 OBJECTID start
+#1 ')'
+#1 IN
+#1 '{'
+#1 IF
+#1 OBJECTID size
+#1 '='
+#1 INT_CONST 15
+#1 THEN
+#1 '{'
+#1 OBJECTID rows
+#1 ASSIGN
+#1 INT_CONST 3
+#1 ';'
+#1 OBJECTID columns
+#1 ASSIGN
+#1 INT_CONST 5
+#1 ';'
+#1 OBJECTID board_size
+#1 ASSIGN
+#1 OBJECTID size
+#1 ';'
+#1 '}'
+#1 ELSE
+#1 IF
+#1 OBJECTID size
+#1 '='
+#1 INT_CONST 16
+#1 THEN
+#1 '{'
+#1 OBJECTID rows
+#1 ASSIGN
+#1 INT_CONST 4
+#1 ';'
+#1 OBJECTID columns
+#1 ASSIGN
+#1 INT_CONST 4
+#1 ';'
+#1 OBJECTID board_size
+#1 ASSIGN
+#1 OBJECTID size
+#1 ';'
+#1 '}'
+#1 ELSE
+#1 IF
+#1 OBJECTID size
+#1 '='
+#1 INT_CONST 20
+#1 THEN
+#1 '{'
+#1 OBJECTID rows
+#1 ASSIGN
+#1 INT_CONST 4
+#1 ';'
+#1 OBJECTID columns
+#1 ASSIGN
+#1 INT_CONST 5
+#1 ';'
+#1 OBJECTID board_size
+#1 ASSIGN
+#1 OBJECTID size
+#1 ';'
+#1 '}'
+#1 ELSE
+#1 IF
+#1 OBJECTID size
+#1 '='
+#1 INT_CONST 21
+#1 THEN
+#1 '{'
+#1 OBJECTID rows
+#1 ASSIGN
+#1 INT_CONST 3
+#1 ';'
+#1 OBJECTID columns
+#1 ASSIGN
+#1 INT_CONST 7
+#1 ';'
+#1 OBJECTID board_size
+#1 ASSIGN
+#1 OBJECTID size
+#1 ';'
+#1 '}'
+#1 ELSE
+#1 IF
+#1 OBJECTID size
+#1 '='
+#1 INT_CONST 25
+#1 THEN
+#1 '{'
+#1 OBJECTID rows
+#1 ASSIGN
+#1 INT_CONST 5
+#1 ';'
+#1 OBJECTID columns
+#1 ASSIGN
+#1 INT_CONST 5
+#1 ';'
+#1 OBJECTID board_size
+#1 ASSIGN
+#1 OBJECTID size
+#1 ';'
+#1 '}'
+#1 ELSE
+#1 IF
+#1 OBJECTID size
+#1 '='
+#1 INT_CONST 28
+#1 THEN
+#1 '{'
+#1 OBJECTID rows
+#1 ASSIGN
+#1 INT_CONST 7
+#1 ';'
+#1 OBJECTID columns
+#1 ASSIGN
+#1 INT_CONST 4
+#1 ';'
+#1 OBJECTID board_size
+#1 ASSIGN
+#1 OBJECTID size
+#1 ';'
+#1 '}'
+#1 ELSE
+#1 '-'
+#1 '-'
+#1 TYPEID If
+#1 OBJECTID none
+#1 OF
+#1 OBJECTID the
+#1 OBJECTID above
+#1 OBJECTID fit
+#1 ','
+#1 THEN
+#1 OBJECTID just
+#1 OBJECTID give
+#1 '{'
+#1 '-'
+#1 '-'
+#1 OBJECTID the
+#1 OBJECTID configuration
+#1 OF
+#1 OBJECTID the
+#1 OBJECTID most
+#1 OBJECTID common
+#1 OBJECTID board
+#1 OBJECTID rows
+#1 ASSIGN
+#1 INT_CONST 5
+#1 ';'
+#1 OBJECTID columns
+#1 ASSIGN
+#1 INT_CONST 5
+#1 ';'
+#1 OBJECTID board_size
+#1 ASSIGN
+#1 OBJECTID size
+#1 ';'
+#1 '}'
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 ';'
+#1 OBJECTID self
+#1 ';'
+#1 '}'
+#1 ')'
+#1 '}'
+#1 ';'
+#1 '}'
+#1 ';'
+#1 CLASS
+#1 TYPEID CellularAutomaton
+#1 INHERITS
+#1 TYPEID Board
+#1 '{'
+#1 OBJECTID population_map
+#1 ':'
+#1 TYPEID String
+#1 ';'
+#1 OBJECTID init
+#1 '('
+#1 OBJECTID map
+#1 ':'
+#1 TYPEID String
+#1 ')'
+#1 ':'
+#1 TYPEID SELF_TYPE
+#1 '{'
+#1 '{'
+#1 OBJECTID population_map
+#1 ASSIGN
+#1 OBJECTID map
+#1 ';'
+#1 OBJECTID board_init
+#1 '('
+#1 OBJECTID map
+#1 ')'
+#1 ';'
+#1 OBJECTID self
+#1 ';'
+#1 '}'
+#1 '}'
+#1 ';'
+#1 OBJECTID print
+#1 '('
+#1 ')'
+#1 ':'
+#1 TYPEID SELF_TYPE
+#1 '{'
+#1 '('
+#1 LET
+#1 OBJECTID i
+#1 ':'
+#1 TYPEID Int
+#1 ASSIGN
+#1 INT_CONST 0
+#1 IN
+#1 '('
+#1 LET
+#1 OBJECTID num
+#1 ':'
+#1 TYPEID Int
+#1 ASSIGN
+#1 OBJECTID board_size
+#1 IN
+#1 '{'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\n"
+#1 ')'
+#1 ';'
+#1 WHILE
+#1 OBJECTID i
+#1 '<'
+#1 OBJECTID num
+#1 LOOP
+#1 '{'
+#1 OBJECTID out_string
+#1 '('
+#1 OBJECTID population_map
+#1 '.'
+#1 OBJECTID substr
+#1 '('
+#1 OBJECTID i
+#1 ','
+#1 OBJECTID columns
+#1 ')'
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID i
+#1 ASSIGN
+#1 OBJECTID i
+#1 '+'
+#1 OBJECTID columns
+#1 ';'
+#1 '}'
+#1 POOL
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID self
+#1 ';'
+#1 '}'
+#1 ')'
+#1 ')'
+#1 '}'
+#1 ';'
+#1 OBJECTID num_cells
+#1 '('
+#1 ')'
+#1 ':'
+#1 TYPEID Int
+#1 '{'
+#1 OBJECTID population_map
+#1 '.'
+#1 OBJECTID length
+#1 '('
+#1 ')'
+#1 '}'
+#1 ';'
+#1 OBJECTID cell
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 IF
+#1 OBJECTID board_size
+#1 '-'
+#1 INT_CONST 1
+#1 '<'
+#1 OBJECTID position
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 OBJECTID population_map
+#1 '.'
+#1 OBJECTID substr
+#1 '('
+#1 OBJECTID position
+#1 ','
+#1 INT_CONST 1
+#1 ')'
+#1 FI
+#1 '}'
+#1 ';'
+#1 OBJECTID north
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 IF
+#1 '('
+#1 OBJECTID position
+#1 '-'
+#1 OBJECTID columns
+#1 ')'
+#1 '<'
+#1 INT_CONST 0
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 OBJECTID cell
+#1 '('
+#1 OBJECTID position
+#1 '-'
+#1 OBJECTID columns
+#1 ')'
+#1 FI
+#1 '}'
+#1 ';'
+#1 OBJECTID south
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 IF
+#1 OBJECTID board_size
+#1 '<'
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 OBJECTID columns
+#1 ')'
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 OBJECTID cell
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 OBJECTID columns
+#1 ')'
+#1 FI
+#1 '}'
+#1 ';'
+#1 OBJECTID east
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 IF
+#1 '('
+#1 '('
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 INT_CONST 1
+#1 ')'
+#1 '/'
+#1 OBJECTID columns
+#1 ')'
+#1 '*'
+#1 OBJECTID columns
+#1 ')'
+#1 '='
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 INT_CONST 1
+#1 ')'
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 OBJECTID cell
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 INT_CONST 1
+#1 ')'
+#1 FI
+#1 '}'
+#1 ';'
+#1 OBJECTID west
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 IF
+#1 OBJECTID position
+#1 '='
+#1 INT_CONST 0
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 IF
+#1 '('
+#1 '('
+#1 OBJECTID position
+#1 '/'
+#1 OBJECTID columns
+#1 ')'
+#1 '*'
+#1 OBJECTID columns
+#1 ')'
+#1 '='
+#1 OBJECTID position
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 OBJECTID cell
+#1 '('
+#1 OBJECTID position
+#1 '-'
+#1 INT_CONST 1
+#1 ')'
+#1 FI
+#1 FI
+#1 '}'
+#1 ';'
+#1 OBJECTID northwest
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 IF
+#1 '('
+#1 OBJECTID position
+#1 '-'
+#1 OBJECTID columns
+#1 ')'
+#1 '<'
+#1 INT_CONST 0
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 IF
+#1 '('
+#1 '('
+#1 OBJECTID position
+#1 '/'
+#1 OBJECTID columns
+#1 ')'
+#1 '*'
+#1 OBJECTID columns
+#1 ')'
+#1 '='
+#1 OBJECTID position
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 OBJECTID north
+#1 '('
+#1 OBJECTID position
+#1 '-'
+#1 INT_CONST 1
+#1 ')'
+#1 FI
+#1 FI
+#1 '}'
+#1 ';'
+#1 OBJECTID northeast
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 IF
+#1 '('
+#1 OBJECTID position
+#1 '-'
+#1 OBJECTID columns
+#1 ')'
+#1 '<'
+#1 INT_CONST 0
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 IF
+#1 '('
+#1 '('
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 INT_CONST 1
+#1 ')'
+#1 '/'
+#1 OBJECTID columns
+#1 ')'
+#1 '*'
+#1 OBJECTID columns
+#1 ')'
+#1 '='
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 INT_CONST 1
+#1 ')'
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 OBJECTID north
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 INT_CONST 1
+#1 ')'
+#1 FI
+#1 FI
+#1 '}'
+#1 ';'
+#1 OBJECTID southeast
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 IF
+#1 OBJECTID board_size
+#1 '<'
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 OBJECTID columns
+#1 ')'
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 IF
+#1 '('
+#1 '('
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 INT_CONST 1
+#1 ')'
+#1 '/'
+#1 OBJECTID columns
+#1 ')'
+#1 '*'
+#1 OBJECTID columns
+#1 ')'
+#1 '='
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 INT_CONST 1
+#1 ')'
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 OBJECTID south
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 INT_CONST 1
+#1 ')'
+#1 FI
+#1 FI
+#1 '}'
+#1 ';'
+#1 OBJECTID southwest
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 IF
+#1 OBJECTID board_size
+#1 '<'
+#1 '('
+#1 OBJECTID position
+#1 '+'
+#1 OBJECTID columns
+#1 ')'
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 IF
+#1 '('
+#1 '('
+#1 OBJECTID position
+#1 '/'
+#1 OBJECTID columns
+#1 ')'
+#1 '*'
+#1 OBJECTID columns
+#1 ')'
+#1 '='
+#1 OBJECTID position
+#1 THEN
+#1 STR_CONST " "
+#1 ELSE
+#1 OBJECTID south
+#1 '('
+#1 OBJECTID position
+#1 '-'
+#1 INT_CONST 1
+#1 ')'
+#1 FI
+#1 FI
+#1 '}'
+#1 ';'
+#1 OBJECTID neighbors
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID Int
+#1 '{'
+#1 '{'
+#1 IF
+#1 OBJECTID north
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 STR_CONST "X"
+#1 THEN
+#1 INT_CONST 1
+#1 ELSE
+#1 INT_CONST 0
+#1 FI
+#1 '+'
+#1 IF
+#1 OBJECTID south
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 STR_CONST "X"
+#1 THEN
+#1 INT_CONST 1
+#1 ELSE
+#1 INT_CONST 0
+#1 FI
+#1 '+'
+#1 IF
+#1 OBJECTID east
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 STR_CONST "X"
+#1 THEN
+#1 INT_CONST 1
+#1 ELSE
+#1 INT_CONST 0
+#1 FI
+#1 '+'
+#1 IF
+#1 OBJECTID west
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 STR_CONST "X"
+#1 THEN
+#1 INT_CONST 1
+#1 ELSE
+#1 INT_CONST 0
+#1 FI
+#1 '+'
+#1 IF
+#1 OBJECTID northeast
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 STR_CONST "X"
+#1 THEN
+#1 INT_CONST 1
+#1 ELSE
+#1 INT_CONST 0
+#1 FI
+#1 '+'
+#1 IF
+#1 OBJECTID northwest
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 STR_CONST "X"
+#1 THEN
+#1 INT_CONST 1
+#1 ELSE
+#1 INT_CONST 0
+#1 FI
+#1 '+'
+#1 IF
+#1 OBJECTID southeast
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 STR_CONST "X"
+#1 THEN
+#1 INT_CONST 1
+#1 ELSE
+#1 INT_CONST 0
+#1 FI
+#1 '+'
+#1 IF
+#1 OBJECTID southwest
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 STR_CONST "X"
+#1 THEN
+#1 INT_CONST 1
+#1 ELSE
+#1 INT_CONST 0
+#1 FI
+#1 ';'
+#1 '}'
+#1 '}'
+#1 ';'
+#1 OBJECTID cell_at_next_evolution
+#1 '('
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 IF
+#1 OBJECTID neighbors
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 INT_CONST 3
+#1 THEN
+#1 STR_CONST "X"
+#1 ELSE
+#1 IF
+#1 OBJECTID neighbors
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 INT_CONST 2
+#1 THEN
+#1 IF
+#1 OBJECTID cell
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 '='
+#1 STR_CONST "X"
+#1 THEN
+#1 STR_CONST "X"
+#1 ELSE
+#1 STR_CONST "-"
+#1 FI
+#1 ELSE
+#1 STR_CONST "-"
+#1 FI
+#1 FI
+#1 '}'
+#1 ';'
+#1 OBJECTID evolve
+#1 '('
+#1 ')'
+#1 ':'
+#1 TYPEID SELF_TYPE
+#1 '{'
+#1 '('
+#1 LET
+#1 OBJECTID position
+#1 ':'
+#1 TYPEID Int
+#1 ASSIGN
+#1 INT_CONST 0
+#1 IN
+#1 '('
+#1 LET
+#1 OBJECTID num
+#1 ':'
+#1 TYPEID Int
+#1 ASSIGN
+#1 OBJECTID num_cells
+#1 '('
+#1 ')'
+#1 IN
+#1 '('
+#1 LET
+#1 OBJECTID temp
+#1 ':'
+#1 TYPEID String
+#1 IN
+#1 '{'
+#1 WHILE
+#1 OBJECTID position
+#1 '<'
+#1 OBJECTID num
+#1 LOOP
+#1 '{'
+#1 OBJECTID temp
+#1 ASSIGN
+#1 OBJECTID temp
+#1 '.'
+#1 OBJECTID concat
+#1 '('
+#1 OBJECTID cell_at_next_evolution
+#1 '('
+#1 OBJECTID position
+#1 ')'
+#1 ')'
+#1 ';'
+#1 OBJECTID position
+#1 ASSIGN
+#1 OBJECTID position
+#1 '+'
+#1 INT_CONST 1
+#1 ';'
+#1 '}'
+#1 POOL
+#1 ';'
+#1 OBJECTID population_map
+#1 ASSIGN
+#1 OBJECTID temp
+#1 ';'
+#1 OBJECTID self
+#1 ';'
+#1 '}'
+#1 ')'
+#1 ')'
+#1 ')'
+#1 '}'
+#1 ';'
+#1 OBJECTID option
+#1 '('
+#1 ')'
+#1 ':'
+#1 TYPEID String
+#1 '{'
+#1 '{'
+#1 '('
+#1 LET
+#1 OBJECTID num
+#1 ':'
+#1 TYPEID Int
+#1 IN
+#1 '{'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\nPlease chose a number:\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t1: A cross\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t2: A slash from the upper left to lower right\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t3: A slash from the upper right to lower left\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t4: An X\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t5: A greater than sign \n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t6: A less than sign\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t7: Two greater than signs\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t8: Two less than signs\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t9: A 'V'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t10: An inverse 'V'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t11: Numbers 9 and 10 combined\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t12: A full grid\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t13: A 'T'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t14: A plus '+'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t15: A 'W'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t16: An 'M'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t17: An 'E'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t18: A '3'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t19: An 'O'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t20: An '8'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\t21: An 'S'\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "Your choice => "
+#1 ')'
+#1 ';'
+#1 OBJECTID num
+#1 ASSIGN
+#1 OBJECTID in_int
+#1 '('
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\n"
+#1 ')'
+#1 ';'
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 1
+#1 THEN
+#1 STR_CONST " XX  XXXX XXXX  XX  "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 2
+#1 THEN
+#1 STR_CONST "    X   X   X   X   X    "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 3
+#1 THEN
+#1 STR_CONST "X     X     X     X     X"
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 4
+#1 THEN
+#1 STR_CONST "X   X X X   X   X X X   X"
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 5
+#1 THEN
+#1 STR_CONST "X     X     X   X   X    "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 6
+#1 THEN
+#1 STR_CONST "    X   X   X     X     X"
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 7
+#1 THEN
+#1 STR_CONST "X  X  X  XX  X      "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 8
+#1 THEN
+#1 STR_CONST " X  XX  X  X  X     "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 9
+#1 THEN
+#1 STR_CONST "X   X X X   X  "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 10
+#1 THEN
+#1 STR_CONST "  X   X X X   X"
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 11
+#1 THEN
+#1 STR_CONST "X X X X X X X X"
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 12
+#1 THEN
+#1 STR_CONST "XXXXXXXXXXXXXXXXXXXXXXXXX"
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 13
+#1 THEN
+#1 STR_CONST "XXXXX  X    X    X    X  "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 14
+#1 THEN
+#1 STR_CONST "  X    X  XXXXX  X    X  "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 15
+#1 THEN
+#1 STR_CONST "X     X X X X   X X  "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 16
+#1 THEN
+#1 STR_CONST "  X X   X X X X     X"
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 17
+#1 THEN
+#1 STR_CONST "XXXXX   X   XXXXX   X   XXXX"
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 18
+#1 THEN
+#1 STR_CONST "XXX    X   X  X    X   XXXX "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 19
+#1 THEN
+#1 STR_CONST " XX X  XX  X XX "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 20
+#1 THEN
+#1 STR_CONST " XX X  XX  X XX X  XX  X XX "
+#1 ELSE
+#1 IF
+#1 OBJECTID num
+#1 '='
+#1 INT_CONST 21
+#1 THEN
+#1 STR_CONST " XXXX   X    XX    X   XXXX "
+#1 ELSE
+#1 STR_CONST "                         "
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 FI
+#1 ';'
+#1 '}'
+#1 ')'
+#1 ';'
+#1 '}'
+#1 '}'
+#1 ';'
+#1 OBJECTID prompt
+#1 '('
+#1 ')'
+#1 ':'
+#1 TYPEID Bool
+#1 '{'
+#1 '{'
+#1 '('
+#1 LET
+#1 OBJECTID ans
+#1 ':'
+#1 TYPEID String
+#1 IN
+#1 '{'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "Would you like to continue with the next generation? \n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "Please use lowercase y or n for your answer [y]: "
+#1 ')'
+#1 ';'
+#1 OBJECTID ans
+#1 ASSIGN
+#1 OBJECTID in_string
+#1 '('
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\n"
+#1 ')'
+#1 ';'
+#1 IF
+#1 OBJECTID ans
+#1 '='
+#1 STR_CONST "n"
+#1 THEN
+#1 BOOL_CONST false
+#1 ELSE
+#1 BOOL_CONST true
+#1 FI
+#1 ';'
+#1 '}'
+#1 ')'
+#1 ';'
+#1 '}'
+#1 '}'
+#1 ';'
+#1 OBJECTID prompt2
+#1 '('
+#1 ')'
+#1 ':'
+#1 TYPEID Bool
+#1 '{'
+#1 '('
+#1 LET
+#1 OBJECTID ans
+#1 ':'
+#1 TYPEID String
+#1 IN
+#1 '{'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "\n\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "Would you like to choose a background pattern? \n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "Please use lowercase y or n for your answer [n]: "
+#1 ')'
+#1 ';'
+#1 OBJECTID ans
+#1 ASSIGN
+#1 OBJECTID in_string
+#1 '('
+#1 ')'
+#1 ';'
+#1 IF
+#1 OBJECTID ans
+#1 '='
+#1 STR_CONST "y"
+#1 THEN
+#1 BOOL_CONST true
+#1 ELSE
+#1 BOOL_CONST false
+#1 FI
+#1 ';'
+#1 '}'
+#1 ')'
+#1 '}'
+#1 ';'
+#1 '}'
+#1 ';'
+#1 CLASS
+#1 TYPEID Main
+#1 INHERITS
+#1 TYPEID CellularAutomaton
+#1 '{'
+#1 OBJECTID cells
+#1 ':'
+#1 TYPEID CellularAutomaton
+#1 ';'
+#1 OBJECTID main
+#1 '('
+#1 ')'
+#1 ':'
+#1 TYPEID SELF_TYPE
+#1 '{'
+#1 '{'
+#1 '('
+#1 LET
+#1 OBJECTID continue
+#1 ':'
+#1 TYPEID Bool
+#1 IN
+#1 '('
+#1 LET
+#1 OBJECTID choice
+#1 ':'
+#1 TYPEID String
+#1 IN
+#1 '{'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "Welcome to the Game of Life.\n"
+#1 ')'
+#1 ';'
+#1 OBJECTID out_string
+#1 '('
+#1 STR_CONST "There are many initial states to choose from. \n"
+#1 ')'
+#1 ';'
+#1 WHILE
+#1 OBJECTID prompt2
+#1 '('
+#1 ')'
+#1 LOOP
+#1 '{'
+#1 OBJECTID continue
+#1 ASSIGN
+#1 BOOL_CONST true
+#1 ';'
+#1 OBJECTID choice
+#1 ASSIGN
+#1 OBJECTID option
+#1 '('
+#1 ')'
+#1 ';'
+#1 OBJECTID cells
+#1 ASSIGN
+#1 '('
+#1 NEW
+#1 TYPEID CellularAutomaton
+#1 ')'
+#1 '.'
+#1 OBJECTID init
+#1 '('
+#1 OBJECTID choice
+#1 ')'
+#1 ';'
+#1 OBJECTID cells
+#1 '.'
+#1 OBJECTID print
+#1 '('
+#1 ')'
+#1 ';'
+#1 WHILE
+#1 OBJECTID continue
+#1 LOOP
+#1 IF
+#1 OBJECTID prompt
+#1 '('
+#1 ')'
+#1 THEN
+#1 '{'
+#1 OBJECTID cells
+#1 '.'
+#1 OBJECTID evolve
+#1 '('
+#1 ')'
+#1 ';'
+#1 OBJECTID cells
+#1 '.'
+#1 OBJECTID print
+#1 '('
+#1 ')'
+#1 ';'
+#1 '}'
+#1 ELSE
+#1 OBJECTID continue
+#1 ASSIGN
+#1 BOOL_CONST false
+#1 FI
+#1 POOL
+#1 ';'
+#1 '}'
+#1 POOL
+#1 ';'
+#1 OBJECTID self
+#1 ';'
+#1 '}'
+#1 ')'
+#1 ')'
+#1 ';'
+#1 '}'
+#1 '}'
+#1 ';'
+#1 '}'
+#1 ';'

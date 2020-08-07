@@ -1,0 +1,5 @@
+#name "./s33.test.cool"
+#1 OBJECTID before_the_comment
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "EOF in comment"

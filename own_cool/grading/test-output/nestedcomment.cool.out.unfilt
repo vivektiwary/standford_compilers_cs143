@@ -1,0 +1,7 @@
+#name "./nestedcomment.cool"
+#1 ERROR "*"
+#1 TYPEID XXX
+#1 ERROR "*)"
+#1 ERROR "*"
+#1 TYPEID XXX
+#1 ERROR "*)"

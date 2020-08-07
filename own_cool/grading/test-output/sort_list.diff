@@ -1,0 +1,66 @@
+1c1,3
+< CLASS
+---
+> ':'
+> ':'
+> TYPEID Class
+50a53,54
+> LONGERROR
+> LONGERROR
+148c152
+< CLASS
+---
+> TYPEID Class
+156a161,171
+> '-'
+> '-'
+> TYPEID We
+> OBJECTID keep
+> OBJECTID the
+> OBJECTID car
+> IN
+> OBJECTID cdr
+> IN
+> OBJECTID attributes
+> '.'
+160a176,207
+> '-'
+> '-'
+> TYPEID Because
+> OBJECTID methods
+> OBJECTID and
+> OBJECTID features
+> OBJECTID must
+> OBJECTID have
+> OBJECTID different
+> OBJECTID names
+> ','
+> '-'
+> '-'
+> OBJECTID we
+> OBJECTID use
+> OBJECTID xcar
+> OBJECTID and
+> OBJECTID xcdr
+> OBJECTID for
+> OBJECTID the
+> OBJECTID attributes
+> OBJECTID and
+> OBJECTID reserve
+> '-'
+> '-'
+> OBJECTID cons
+> OBJECTID and
+> OBJECTID car
+> OBJECTID for
+> OBJECTID the
+> OBJECTID features
+> '.'
+355c402
+< CLASS
+---
+> TYPEID Class
+435c482
+< CLASS
+---
+> TYPEID Class

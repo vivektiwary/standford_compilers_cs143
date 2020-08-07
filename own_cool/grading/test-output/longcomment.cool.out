@@ -1,0 +1,244 @@
+TYPEID Comment
+OBJECTID test
+ERROR "*"
+LONGERROR
+ERROR "*"
+TYPEID Comment
+LONGERROR
+ERROR "*"
+LONGERROR
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+LONGERROR
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+'-'
+'-'
+OBJECTID single
+OBJECTID line
+OBJECTID comments
+'-'
+'-'
+ERROR "$"
+ERROR "#"
+ERROR "%"
+ERROR "^"
+ERROR "^"
+ERROR "$"
+ERROR "%"
+ERROR "&"
+ERROR "%"
+ERROR "^"
+ERROR "&"
+ERROR "%"
+ERROR "&"
+ERROR "%"
+ERROR "#"
+'*'
+ERROR "&"
+'*'
+ERROR "$"
+ERROR "^"
+'*'
+ERROR "%"
+ERROR ">"
+TYPEID G
+ERROR "%"
+ERROR ">"
+TYPEID GH
+ERROR ">"
+ERROR "%"
+TYPEID TH
+ERROR "%"
+ERROR ">"
+ERROR "^"
+'*'
+ERROR "^"
+ERROR "$"
+ERROR "$"
+'*'
+ERROR "&"
+ERROR "^"
+ERROR "$"
+TYPEID Comment
+OBJECTID test
+ERROR "*"
+LONGERROR
+ERROR "*"
+TYPEID Comment
+LONGERROR
+ERROR "*"
+LONGERROR
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+LONGERROR
+ERROR "*"
+ERROR "*"
+ERROR "*"
+ERROR "*"
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+LONGERROR
+TYPEID Foo
+OBJECTID bar
+'-'
+'-'
+OBJECTID hello
+OBJECTID my
+OBJECTID name
+OBJECTID is
+OBJECTID george
+';'
+'@'
+ERROR "#"
+ERROR "$"
+ERROR "#"
+'@'
+ERROR "!"
+ERROR "^"
+ERROR "%"
+ERROR "&"
+ERROR "$"
+ERROR "&"
+'@'
+ERROR "$"
+ERROR "#"
+ERROR "$"
+TYPEID ESFsej
+OBJECTID ok34
+';'
+OBJECTID u90
+TYPEID Moo
+OBJECTID bow
+'-'
+'-'
+'-'
+OBJECTID heelo
+OBJECTID my
+OBJECTID nma
+OBJECTID ei
+OBJECTID sgeoegre
+';'
+INT_CONST 234
+INT_CONST 2
+ERROR "#"
+ERROR "$"
+'@'
+ERROR "#"
+ERROR "$"
+OBJECTID f
+TYPEID JoJo
+TYPEID JojOj
+OBJECTID joJoj323
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+OBJECTID dfdj
+'-'
+'-'
+OBJECTID fadsjfkldsafjklsd
+';'
+'-'
+'-'
+OBJECTID dfdsajfk312
+'-'
+'-'

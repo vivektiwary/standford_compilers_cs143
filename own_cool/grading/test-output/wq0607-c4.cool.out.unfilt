@@ -1,0 +1,77 @@
+#name "./wq0607-c4.cool"
+#1 STR_CONST "\\-"
+#1 '-'
+#1 STR_CONST "--"
+#1 '-'
+#1 '-'
+#1 ERROR "\\"
+#1 STR_CONST ""
+#1 ERROR "\\"
+#1 ERROR "\\"
+#1 STR_CONST "-"
+#1 ERROR "\\"
+#1 STR_CONST "\\"
+#1 '-'
+#1 ERROR "\\"
+#1 '-'
+#1 STR_CONST "\\"
+#1 STR_CONST ""
+#1 ERROR "\\"
+#1 '-'
+#1 '-'
+#1 STR_CONST "\""
+#1 ERROR "\\"
+#1 ERROR "Unterminated string constant"
+#1 STR_CONST "\\"
+#1 STR_CONST "\"--\""
+#1 ERROR "\\"
+#1 '-'
+#1 ERROR "\\"
+#1 STR_CONST ""
+#1 ERROR "\\"
+#1 STR_CONST "--\\"
+#1 ERROR "\\"
+#1 STR_CONST "\\"
+#1 '-'
+#1 '-'
+#1 STR_CONST ""
+#1 ERROR "\\"
+#1 STR_CONST "--"
+#1 ERROR "Unterminated string constant"
+#1 STR_CONST "\\"
+#1 STR_CONST "\"--\""
+#1 ERROR "\\"
+#1 ERROR "\\"
+#1 STR_CONST ""
+#1 ERROR "\\"
+#1 STR_CONST "--\\"
+#1 ERROR "\\"
+#1 STR_CONST "\\"
+#1 STR_CONST "--"
+#1 ERROR "\\"
+#1 STR_CONST "\""
+#1 ERROR "\\"
+#1 ERROR "Unterminated string constant"
+#1 STR_CONST "-\""
+#1 ERROR "\\"
+#1 '-'
+#1 '-'
+#1 STR_CONST "\""
+#1 ERROR "\\"
+#1 '-'
+#1 '-'
+#1 ERROR "\\"
+#1 STR_CONST ""
+#1 ERROR "\\"
+#1 STR_CONST "\\"
+#1 ERROR "\\"
+#1 '-'
+#1 '-'
+#1 STR_CONST "\\"
+#1 STR_CONST ""
+#1 ERROR "\\"
+#1 '-'
+#1 '-'
+#1 STR_CONST "\""
+#1 ERROR "\\"
+#1 ERROR "EOF in string constant"

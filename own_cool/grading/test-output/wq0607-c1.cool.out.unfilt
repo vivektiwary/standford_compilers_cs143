@@ -1,0 +1,17 @@
+#name "./wq0607-c1.cool"
+#1 '-'
+#1 '-'
+#1 STR_CONST "--"
+#1 '-'
+#1 '-'
+#1 ERROR "Unterminated string constant"
+#1 STR_CONST "--"
+#1 '-'
+#1 '-'
+#1 ERROR "Unterminated string constant"
+#1 '-'
+#1 '-'
+#1 STR_CONST "--"
+#1 '-'
+#1 '-'
+#1 ERROR "EOF in string constant"

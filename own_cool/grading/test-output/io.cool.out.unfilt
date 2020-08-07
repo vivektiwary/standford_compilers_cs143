@@ -1,0 +1,292 @@
+#name "./io.cool"
+#1 ERROR "*"
+#1 ':'
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ':'
+#1 ':'
+#1 ERROR "*"
+#1 ':'
+#1 ':'
+#1 ERROR "*"
+#1 ':'
+#1 ERROR "*"
+#1 ':'
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "*"
+#1 ERROR "\""
+#2 ERROR "\""
+#2 ERROR "*"
+#2 ERROR "*"
+#2 ';'
+#2 ERROR "*"
+#2 ERROR "*"
+#2 ERROR "*"
+#2 ERROR "*"
+#2 ERROR "*"
+#2 ERROR "*"
+#2 ERROR "*"
+#2 ':'
+#2 ERROR "<"
+#2 ';'
+#2 ERROR "*"
+#2 ERROR "*"
+#2 ERROR "\""
+#3 ERROR "\""
+#3 ';'
+#3 ERROR "*"
+#3 ERROR "*"
+#3 ';'
+#3 ERROR "*"
+#3 ERROR "*"
+#3 ERROR "*"
+#3 ERROR "*"
+#3 CLASS
+#3 TYPEID A
+#3 '{'
+#3 '-'
+#3 '-'
+#3 TYPEID Let
+#3 ERROR "'"
+#3 OBJECTID s
+#3 OBJECTID assume
+#3 OBJECTID that
+#3 OBJECTID we
+#3 OBJECTID don
+#3 ERROR "'"
+#3 OBJECTID t
+#3 OBJECTID want
+#3 TYPEID A
+#3 OBJECTID to
+#3 NOT
+#3 OBJECTID inherit
+#3 OBJECTID from
+#3 TYPEID IO
+#3 '.'
+#3 OBJECTID io
+#3 ':'
+#3 TYPEID IO
+#3 ASSIGN
+#3 NEW
+#3 TYPEID IO
+#3 ';'
+#3 OBJECTID out_a
+#3 '('
+#3 ')'
+#3 ':'
+#3 TYPEID Object
+#3 '{'
+#3 OBJECTID io
+#3 '.'
+#3 OBJECTID out_string
+#3 '('
+#3 STR_CONST "A: Hello world\n"
+#3 ')'
+#3 '}'
+#3 ';'
+#3 '}'
+#3 ';'
+#3 CLASS
+#3 TYPEID B
+#3 INHERITS
+#3 TYPEID A
+#3 '{'
+#3 '-'
+#3 '-'
+#3 TYPEID B
+#3 OBJECTID does
+#3 NOT
+#3 OBJECTID have
+#3 OBJECTID to
+#3 OBJECTID an
+#3 OBJECTID extra
+#3 OBJECTID attribute
+#3 ','
+#3 OBJECTID since
+#3 OBJECTID it
+#3 INHERITS
+#3 OBJECTID io
+#3 OBJECTID from
+#3 TYPEID A
+#3 '.'
+#3 OBJECTID out_b
+#3 '('
+#3 ')'
+#3 ':'
+#3 TYPEID Object
+#3 '{'
+#3 OBJECTID io
+#3 '.'
+#3 OBJECTID out_string
+#3 '('
+#3 STR_CONST "B: Hello world\n"
+#3 ')'
+#3 '}'
+#3 ';'
+#3 '}'
+#3 ';'
+#3 CLASS
+#3 TYPEID C
+#3 INHERITS
+#3 TYPEID IO
+#3 '{'
+#3 '-'
+#3 '-'
+#3 TYPEID Now
+#3 OBJECTID the
+#3 TYPEID IO
+#3 OBJECTID methods
+#3 OBJECTID are
+#3 OBJECTID part
+#3 OF
+#3 TYPEID C
+#3 '.'
+#3 OBJECTID out_c
+#3 '('
+#3 ')'
+#3 ':'
+#3 TYPEID Object
+#3 '{'
+#3 OBJECTID out_string
+#3 '('
+#3 STR_CONST "C: Hello world\n"
+#3 ')'
+#3 '}'
+#3 ';'
+#3 '-'
+#3 '-'
+#3 TYPEID Note
+#3 OBJECTID that
+#3 OBJECTID out_string
+#3 '('
+#3 '.'
+#3 '.'
+#3 '.'
+#3 ')'
+#3 OBJECTID is
+#3 OBJECTID just
+#3 OBJECTID a
+#3 OBJECTID shorthand
+#3 OBJECTID for
+#3 OBJECTID self
+#3 '.'
+#3 OBJECTID out_string
+#3 '('
+#3 '.'
+#3 '.'
+#3 '.'
+#3 ')'
+#3 '}'
+#3 ';'
+#3 CLASS
+#3 TYPEID D
+#3 INHERITS
+#3 TYPEID C
+#3 '{'
+#3 '-'
+#3 '-'
+#3 TYPEID Inherits
+#3 TYPEID IO
+#3 OBJECTID methods
+#3 OBJECTID from
+#3 TYPEID C
+#3 '.'
+#3 OBJECTID out_d
+#3 '('
+#3 ')'
+#3 ':'
+#3 TYPEID Object
+#3 '{'
+#3 OBJECTID out_string
+#3 '('
+#3 STR_CONST "D: Hello world\n"
+#3 ')'
+#3 '}'
+#3 ';'
+#3 '}'
+#3 ';'
+#3 CLASS
+#3 TYPEID Main
+#3 INHERITS
+#3 TYPEID IO
+#3 '{'
+#3 '-'
+#3 '-'
+#3 TYPEID Same
+#3 CASE
+#3 OBJECTID as
+#3 CLASS
+#3 TYPEID C
+#3 '.'
+#3 OBJECTID main
+#3 '('
+#3 ')'
+#3 ':'
+#3 TYPEID Object
+#3 '{'
+#3 '{'
+#3 '('
+#3 NEW
+#3 TYPEID A
+#3 ')'
+#3 '.'
+#3 OBJECTID out_a
+#3 '('
+#3 ')'
+#3 ';'
+#3 '('
+#3 NEW
+#3 TYPEID B
+#3 ')'
+#3 '.'
+#3 OBJECTID out_b
+#3 '('
+#3 ')'
+#3 ';'
+#3 '('
+#3 NEW
+#3 TYPEID C
+#3 ')'
+#3 '.'
+#3 OBJECTID out_c
+#3 '('
+#3 ')'
+#3 ';'
+#3 '('
+#3 NEW
+#3 TYPEID D
+#3 ')'
+#3 '.'
+#3 OBJECTID out_d
+#3 '('
+#3 ')'
+#3 ';'
+#3 OBJECTID out_string
+#3 '('
+#3 STR_CONST "Done.\n"
+#3 ')'
+#3 ';'
+#3 '}'
+#3 '}'
+#3 ';'
+#3 '}'
+#3 ';'

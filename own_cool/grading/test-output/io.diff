@@ -1,0 +1,155 @@
+0a1,61
+> ERROR "*"
+> ':'
+> ERROR "*"
+> ERROR "*"
+> ':'
+> ':'
+> ERROR "*"
+> ':'
+> ':'
+> ERROR "*"
+> ':'
+> ERROR "*"
+> ':'
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> LONGERROR
+> LONGERROR
+> ERROR "*"
+> ERROR "*"
+> ';'
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ':'
+> ERROR "<"
+> ';'
+> ERROR "*"
+> ERROR "*"
+> LONGERROR
+> LONGERROR
+> ';'
+> ERROR "*"
+> ERROR "*"
+> ';'
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+> ERROR "*"
+3a65,83
+> '-'
+> '-'
+> TYPEID Let
+> ERROR "'"
+> OBJECTID s
+> OBJECTID assume
+> OBJECTID that
+> OBJECTID we
+> OBJECTID don
+> ERROR "'"
+> OBJECTID t
+> OBJECTID want
+> TYPEID A
+> OBJECTID to
+> NOT
+> OBJECTID inherit
+> OBJECTID from
+> TYPEID IO
+> '.'
+31a112,129
+> '-'
+> '-'
+> TYPEID B
+> OBJECTID does
+> NOT
+> OBJECTID have
+> OBJECTID to
+> OBJECTID an
+> OBJECTID extra
+> OBJECTID attribute
+> ','
+> OBJECTID since
+> OBJECTID it
+> INHERITS
+> OBJECTID io
+> OBJECTID from
+> TYPEID A
+> '.'
+52a151,161
+> '-'
+> '-'
+> TYPEID Now
+> OBJECTID the
+> TYPEID IO
+> OBJECTID methods
+> OBJECTID are
+> OBJECTID part
+> OF
+> TYPEID C
+> '.'
+64a174,196
+> '-'
+> '-'
+> TYPEID Note
+> OBJECTID that
+> OBJECTID out_string
+> '('
+> '.'
+> '.'
+> '.'
+> ')'
+> OBJECTID is
+> OBJECTID just
+> OBJECTID a
+> OBJECTID shorthand
+> OBJECTID for
+> OBJECTID self
+> '.'
+> OBJECTID out_string
+> '('
+> '.'
+> '.'
+> '.'
+> ')'
+71a204,211
+> '-'
+> '-'
+> TYPEID Inherits
+> TYPEID IO
+> OBJECTID methods
+> OBJECTID from
+> TYPEID C
+> '.'
+90a231,238
+> '-'
+> '-'
+> TYPEID Same
+> CASE
+> OBJECTID as
+> CLASS
+> TYPEID C
+> '.'

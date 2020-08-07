@@ -1,0 +1,17 @@
+0a1,2
+> '-'
+> '-'
+1a4,16
+> '-'
+> '-'
+> LONGERROR
+> STR_CONST "--"
+> '-'
+> '-'
+> LONGERROR
+> '-'
+> '-'
+> STR_CONST "--"
+> '-'
+> '-'
+> LONGERROR

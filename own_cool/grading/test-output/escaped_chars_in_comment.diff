@@ -1,0 +1,12 @@
+0a1,11
+> ERROR "*"
+> LONGERROR
+> '*'
+> LONGERROR
+> ')'
+> OBJECTID abc
+> LONGERROR
+> LONGERROR
+> ERROR "*"
+> OBJECTID jkl
+> LONGERROR

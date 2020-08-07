@@ -1,0 +1,20 @@
+#name "./badidentifiers.cool"
+#1 OBJECTID inky
+#1 '.'
+#1 OBJECTID binky
+#1 '.'
+#1 OBJECTID winky
+#1 '.'
+#1 OBJECTID dot
+#1 INT_CONST 1
+#1 OBJECTID thatwasanumber
+#1 OBJECTID two
+#1 '-'
+#1 OBJECTID objects
+#1 TYPEID Two
+#1 '-'
+#1 TYPEID Types
+#1 OBJECTID _underscore
+#1 TYPEID Type
+#1 '-'
+#1 OBJECTID object

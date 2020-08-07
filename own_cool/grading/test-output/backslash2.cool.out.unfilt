@@ -1,0 +1,34 @@
+#name "./backslash2.cool"
+#1 ERROR "Unterminated string constant"
+#1 STR_CONST ""
+#1 TYPEID This
+#1 OBJECTID is
+#1 OBJECTID also
+#1 NOT
+#1 OBJECTID escaped
+#1 ERROR "\\"
+#1 ERROR "\\"
+#1 STR_CONST ""
+#1 TYPEID This
+#1 OBJECTID is
+#1 ','
+#1 OBJECTID though
+#1 ERROR "\\"
+#1 ERROR "\\"
+#1 ERROR "\\"
+#1 STR_CONST ""
+#1 ERROR "\\"
+#1 ERROR "\\"
+#1 STR_CONST ""
+#1 TYPEID It
+#1 ERROR "'"
+#1 OBJECTID s
+#1 OBJECTID fine
+#1 OBJECTID to
+#1 OBJECTID have
+#1 OBJECTID this
+#1 ':'
+#2 IN
+#2 OBJECTID a
+#2 OBJECTID string
+#2 ERROR "Unterminated string constant"
